@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PhotoService } from '../services/photo.service';
 
 @Component({
   selector: 'app-tab2',
@@ -8,6 +9,16 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
 
+constructor(public photoService: PhotoService) {}
+
+  addPhotoToGallery() {
+    this.photoService.addNewToGallery();
+  }
+  async presentPhotoOptions() {
+    await this.photoService.presentPhotoOptions();
+  }
+  async ngOnInit() {
+    await this.photoService.loadSaved();
+  }
 }
