@@ -49,6 +49,9 @@ Esto ayuda a **reducir el tamaño del archivo** y acelerar el guardado en dispos
 
 ![image](https://github.com/user-attachments/assets/3fbca459-742a-4fcf-8a11-b13290c2689e)
 
+## Splash Screen
+![image](https://github.com/user-attachments/assets/0687cabd-ebae-487d-af7b-a54a1c0e1ee9)
+
 
 
 ## 🛠️ Estructura del repositorio
